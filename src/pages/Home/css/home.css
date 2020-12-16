@@ -1,0 +1,26 @@
+.home{
+    background-color: rgba(151, 250, 253, 0.466);
+    min-height: 500px;
+    /* background-image: url('../../../assets/images/backgound.jpg'); */
+}
+.home .food-container{
+    display: flex;
+    justify-content: center;
+}
+.food-pic{
+    width: 40%;
+    margin: 40px 10px;
+    padding: 0px;
+    margin: 40px 10px;
+    box-shadow: 0px 1px 8px 1px #afe5e6;
+    height: auto;
+    border-radius: 10px;
+}
+.food-pic img{
+    width: 100%;
+    border-radius: 10px;
+    background: #ffe3ae8c;
+}
+.default-img{
+    background: #ffe3aecf;
+}

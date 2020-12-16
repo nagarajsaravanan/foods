@@ -1,0 +1,15 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+    color:white;
+    text-align: center;
+    padding: 20px 0px;
+    background: rgba(255, 0, 0, 0.548);
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 2px 3px 4px 2px rgba(255, 0, 0, 0.548);
+    opacity: 3;
+}

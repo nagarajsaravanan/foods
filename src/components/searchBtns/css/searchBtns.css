@@ -1,0 +1,18 @@
+.search-btn-container{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.search-btns div{
+    color: white;
+    background-color:rgba(255, 0, 0, 0.548);
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 2px white;
+}
