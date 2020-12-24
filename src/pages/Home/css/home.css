@@ -9,12 +9,23 @@
 }
 .food-pic{
     width: 40%;
-    margin: 40px 10px;
     padding: 0px;
-    margin: 40px 10px;
+    margin: 122px 10px;
     box-shadow: 0px 1px 8px 1px #afe5e6;
     height: auto;
     border-radius: 10px;
+}
+.food-name{
+    text-align: center;
+    width: 100%;
+    background: rgba(151, 250, 253, 0.466);
+    color: #ff7373;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px 0px;
+    box-shadow: 0px 1px 8px 1px #afe5e6;
+    border-radius: 10px 10px 0px 0px;
 }
 .food-pic img{
     width: 100%;

@@ -1,12 +1,9 @@
 .search-btn-container{
-    position: absolute;
-    top: 40%;
+    position: fixed;
+    top: 22%;
     left: 5%;
-    position: absolute;
-    top: 40%;
-    left: 5%;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    justify-content: center;
     width: 20%;
 }
 .search-btns div{
@@ -15,4 +12,26 @@
     padding: 8px 10px;
     border-radius: 5px;
     box-shadow: 1px 1px 4px 2px white;
+    animation-name: btn-click;
+    animation-duration: 2s;
+    text-align: center;
+    margin: 5px 0px;
+    font-style: italic;
+    cursor: pointer;
+}
+.search-btns div:active{
+    color:rgba(255, 0, 0, 0.548);
+    background-color: white;
+    transform: translate(0px, 5px);
+}
+
+@keyframes btn-click {
+    from {
+        background-color: rgba(151, 250, 253, 0.466);
+        color:rgba(151, 250, 253, 0.466);
+    }
+    to {
+        color: white;
+        background-color:rgba(255, 0, 0, 0.548);
+    }
 }
