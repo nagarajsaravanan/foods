@@ -1,0 +1,28 @@
+/* @media only screen and (max-width: 768px) { */
+    @media only screen and (max-width: 480px) {
+    /* .header {
+        color: green;
+    } */
+    .food-pic{
+        width: 100%;
+        margin: 75px 10px;
+    }
+    .search-btn-container {
+        top: 92%;
+        bottom: 2%;
+        left: 0%;
+        display: flex;
+        width: 100%;
+    }
+    .search-btns div {
+        margin: 0px 3px;
+        padding: 8px 8px;
+        border-radius: 10px;
+    }
+    .home {
+        min-height: 700px;
+    }
+    .header {
+        padding: 10px 0px;
+    }
+  }

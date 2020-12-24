@@ -1,5 +1,5 @@
 .home{
-    background-color: rgba(151, 250, 253, 0.466);
+    background-color: white;
     min-height: 500px;
     /* background-image: url('../../../assets/images/backgound.jpg'); */
 }
@@ -11,20 +11,19 @@
     width: 40%;
     padding: 0px;
     margin: 122px 10px;
-    box-shadow: 0px 1px 8px 1px #afe5e6;
+    box-shadow: 1px 1px 4px 2px white;
     height: auto;
     border-radius: 10px;
 }
 .food-name{
     text-align: center;
     width: 100%;
-    background: rgba(151, 250, 253, 0.466);
+    background: white;
     color: #ff7373;
     font-size: 20px;
-    font-style: italic;
     font-weight: bold;
     padding: 10px 0px;
-    box-shadow: 0px 1px 8px 1px #afe5e6;
+    box-shadow: 1px 1px 4px 2px white;
     border-radius: 10px 10px 0px 0px;
 }
 .food-pic img{
@@ -34,4 +33,7 @@
 }
 .default-img{
     background: #ffe3aecf;
+}
+#loading-img{
+    cursor: wait;
 }

@@ -16,7 +16,6 @@
     animation-duration: 2s;
     text-align: center;
     margin: 5px 0px;
-    font-style: italic;
     cursor: pointer;
 }
 .search-btns div:active{
