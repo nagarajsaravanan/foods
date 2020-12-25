@@ -26,8 +26,8 @@
 
 @keyframes btn-click {
     from {
-        background-color: rgba(151, 250, 253, 0.466);
-        color:rgba(151, 250, 253, 0.466);
+        background-color: white;
+        color:white;
     }
     to {
         color: white;

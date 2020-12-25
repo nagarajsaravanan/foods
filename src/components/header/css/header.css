@@ -12,4 +12,16 @@ body{
     opacity: 3;
     width: 100%;
     position: fixed;
+    animation-name: header-anm;
+    animation-duration: 1s;
+}
+
+@keyframes header-anm {
+    from {
+       background-color: white;
+
+    }
+    to {
+        background-color: rgb(247 80 80);
+    }
 }
