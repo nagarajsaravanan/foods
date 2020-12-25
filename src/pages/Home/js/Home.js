@@ -20,8 +20,8 @@ function Home() {
 
     const activateBtn = (name) => {
         let btns = document.querySelectorAll('.search-btns');
-            for(let i =0; i < btns.length; i++){
-            if(btns[i].id === `name-${name}`){
+        for (let i = 0; i < btns.length; i++) {
+            if (btns[i].id === `name-${name}`) {
                 btns[i].classList.add('active');
             } else {
                 btns[i].classList.remove('active');
@@ -29,10 +29,10 @@ function Home() {
         }
     }
 
-    const getFoodImage = async(name = false) => {
+    const getFoodImage = async (name = false) => {
         setImage(false);
         let url = '';
-        url = name ? `https://foodish-api.herokuapp.com/api/images/${name}`:'https://foodish-api.herokuapp.com/api/';
+        url = name ? `https://foodish-api.herokuapp.com/api/images/${name}` : 'https://foodish-api.herokuapp.com/api/';
         let res = await fetch(url);
         res = await res.json();
         setImage((await res && await res.image) ? res.image : false);
@@ -41,13 +41,14 @@ function Home() {
         <div className="home">
             <div className="food-container">
                 {image && image !== false ? <div className="food-pic">
-                {name && name!= null && <div className="food-name">{name.charAt(0).toUpperCase() + name.slice(1)}</div>}
-                    <img src={image} title="" />
+                    {name && name != null && <div className="food-name">{name.charAt(0).toUpperCase() + name.slice(1)}</div>}<transition name="fade">
+                        <img id="fade-in" src={image} title="" />
+                    </transition>
                 </div> : <div className="food-pic default-img">
-                        <img id="loading-img" src={DefaultImg} title="Foodies!!" />
+                        {/* <img id="loading-img" src={DefaultImg} title="Foodies!!" /> */}
                     </div>}
             </div>
-            <SearchBtns foodNames={foodNames} item={getItem}/>
+            <SearchBtns foodNames={foodNames} item={getItem} />
         </div>
     );
 }
